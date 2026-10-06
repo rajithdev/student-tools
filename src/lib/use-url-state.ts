@@ -23,7 +23,7 @@ export function useUrlState<T extends State>(defaults: T, parse: (params: URLSea
     try {
       const params = new URLSearchParams(window.location.search);
       if ([...params.keys()].length) {
-        const parsed = Object.fromEntries(Object.entries(parse(params)).filter(([, v]) => v !== undefined)) as Partial<T>;
+        const parsed = Object.fromEntries(Object.entries(parse(params)).filter(([, v]) => v !== undefined && v !== "")) as Partial<T>;
         setState((s) => ({ ...s, ...parsed }));
       }
     } catch {}

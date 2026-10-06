@@ -55,7 +55,7 @@ export function CgpaCalculator() {
 
   const subjects = useMemo(() => {
     const allowed = [...scale.bands.map((b) => b.letter), CUSTOM];
-    return parseRows(state.r, 3, 4).map(([c, g, p]) => [cleanNum(c), cleanOneOf(g, allowed), cleanNum(p)]);
+    return parseRows(state.r, 3, 4).map(([c, g, p]) => [cleanNum(c), cleanOneOf(g, allowed) ?? "", cleanNum(p)]);
   }, [state.r, scale]);
   const semesters = useMemo(() => parseRows(state.s, 2, 2).map(([g, c]) => [cleanNum(g), cleanNum(c)]), [state.s]);
 

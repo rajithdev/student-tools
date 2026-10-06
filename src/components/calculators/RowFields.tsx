@@ -102,8 +102,8 @@ export function cleanNum(v: string): string {
 }
 
 /** Keep only values from an allow-list. */
-export function cleanOneOf(v: string, allowed: readonly string[]): string {
-  return allowed.includes(v) ? v : "";
+export function cleanOneOf(v: string, allowed: readonly string[]): string | undefined {
+  return allowed.includes(v) ? v : undefined;
 }
 
 /** Read a free-form string param, limited in length. */

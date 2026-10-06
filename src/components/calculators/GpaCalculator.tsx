@@ -48,7 +48,7 @@ export function GpaCalculator() {
   const weighted = state.w === "1";
   const maxPoints = weighted ? 5 : ap43 ? 4.3 : 4;
 
-  const rows = useMemo(() => parseRows(state.r, 4, 4).map(([n, c, l, lv]) => [n, cleanNum(c), cleanOneOf(l, LETTERS), cleanOneOf(lv, ["", "h", "a"])]), [state.r]);
+  const rows = useMemo(() => parseRows(state.r, 4, 4).map(([n, c, l, lv]) => [n, cleanNum(c), cleanOneOf(l, LETTERS) ?? "", cleanOneOf(lv, ["", "h", "a"]) ?? ""]), [state.r]);
 
   const result = useMemo(() => gpa(rows.map(([, c, l, lv]) => ({ credits: parseNum(c), points: pointsFor(l, lv, ap43, weighted, maxPoints) })), maxPoints), [rows, maxPoints, ap43, weighted]);
 
