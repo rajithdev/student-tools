@@ -28,7 +28,7 @@ export const tools: ToolDef[] = [
     name: "Attendance Calculator",
     title: "Attendance Calculator – 75% Rule, Classes You Can Miss",
     description:
-      "Free attendance percentage calculator for students. Enter classes attended and held to see your attendance %, how many classes you can miss, and how many you must attend to reach 75%, 80% or 85%.",
+      "Enter classes attended and held to get your attendance %, how many classes you can still miss, and how many you must attend to reach 75%, 80% or 85%.",
     h1: "Attendance Calculator",
     short: "Your attendance %, how many classes you can miss, and how many you need to attend.",
     category: "attendance",
@@ -41,7 +41,7 @@ export const tools: ToolDef[] = [
     name: "How Many Classes Can I Miss?",
     title: "How Many Classes Can I Miss? 75% Attendance Planner",
     description:
-      "Find out exactly how many classes you can skip, or how many you must attend in a row, to stay at or above 75% (or any target) attendance. Includes a remaining-classes planner and recovery check.",
+      "Exactly how many classes you can skip, or must attend in a row, to stay at or above 75% attendance. Includes a remaining-classes planner and recovery check.",
     h1: "How Many Classes Can I Miss?",
     short: "Safe-to-skip count, classes needed to recover, and whether recovery is still possible.",
     category: "attendance",
@@ -54,7 +54,7 @@ export const tools: ToolDef[] = [
     name: "CGPA Calculator",
     title: "SGPA & CGPA Calculator – 10-Point, Credit-Weighted",
     description:
-      "Calculate SGPA from subject grades and credits, then CGPA across semesters with the UGC credit-weighted formula. Letter or numeric grades, editable scale, instant result.",
+      "Calculate SGPA from subject grades and credits, then CGPA across semesters with the UGC credit-weighted formula. Letter or numeric grades, instant result.",
     h1: "SGPA & CGPA Calculator",
     short: "Subject grades and credits, or semester SGPAs, into an accurate CGPA.",
     category: "gpa",
@@ -65,9 +65,9 @@ export const tools: ToolDef[] = [
   {
     slug: "gpa-calculator",
     name: "GPA Calculator",
-    title: "GPA Calculator – Semester & Cumulative GPA on a 4.0 Scale",
+    title: "GPA Calculator – Semester & Cumulative GPA (4.0 Scale)",
     description:
-      "Calculate your semester GPA from letter grades and credit hours, then combine semesters into a cumulative GPA. Supports plus/minus grading on the 4.0 scale.",
+      "Semester GPA from letter grades and credit hours, cumulative GPA across semesters, honors/AP weighting and a target-GPA planner on the 4.0 scale.",
     h1: "GPA Calculator",
     short: "Letter grades and credit hours into semester and cumulative GPA.",
     category: "gpa",
@@ -80,7 +80,7 @@ export const tools: ToolDef[] = [
     name: "CGPA to Percentage Converter",
     title: "CGPA to Percentage Calculator – CBSE, VTU, Anna, Mumbai",
     description:
-      "Convert CGPA or SGPA to percentage, and percentage back to CGPA, using the formula your board or university actually uses: 9.5×, 10×, (CGPA − 0.75) × 10, 7.1 × CGPI + 11 or your own.",
+      "Convert CGPA or SGPA to percentage and back using the formula your board or university actually uses: 9.5×, 10×, (CGPA − 0.75) × 10, Mumbai, or custom.",
     h1: "CGPA to Percentage Calculator (and Percentage to CGPA)",
     short: "Both directions, with CBSE, VTU, Anna, Mumbai and custom formulas.",
     category: "gpa",
@@ -93,7 +93,7 @@ export const tools: ToolDef[] = [
     name: "CGPA to GPA Converter",
     title: "CGPA to GPA Converter – 10-Point CGPA to 4.0 Scale",
     description:
-      "Estimate your 4.0-scale GPA from a 10-point CGPA or a percentage, see the band table, and learn how evaluators like WES actually convert Indian transcripts course by course.",
+      "Estimate your 4.0-scale GPA from a 10-point CGPA or percentage, see the band table, and learn how evaluators like WES actually convert Indian transcripts.",
     h1: "CGPA to GPA (4.0 Scale) Converter",
     short: "10-point CGPA to a 4.0 GPA estimate, with the caveats evaluators apply.",
     category: "gpa",
@@ -106,7 +106,7 @@ export const tools: ToolDef[] = [
     name: "Marks Percentage Calculator",
     title: "Marks Percentage Calculator – Marks to Percentage (500, 600)",
     description:
-      "Calculate your percentage from marks obtained and total marks, subject by subject. Best-of-5 option, presets for 500, 600 and 1000 marks, plus the formula and worked examples.",
+      "Percentage from marks obtained and total marks, subject by subject. Best-of-5 option, presets for 500, 600 and 1000 marks, formula and worked examples.",
     h1: "Marks Percentage Calculator",
     short: "Subject-wise marks to an overall percentage, with best-of-5.",
     category: "grades",
@@ -117,9 +117,9 @@ export const tools: ToolDef[] = [
   {
     slug: "grade-calculator",
     name: "Grade Calculator",
-    title: "Grade Calculator – Weighted Grade & Test Score Calculator",
+    title: "Grade Calculator – Weighted Grade & Test Score",
     description:
-      "Enter assignment, test and exam scores with their weights to get your current weighted grade and letter grade. Also converts a single test score to a percentage and letter.",
+      "Enter assignment, test and exam scores with weights to get your weighted grade and letter grade. Also converts a single test score to a percentage.",
     h1: "Grade Calculator",
     short: "Weighted course grade and letter grade from your scores so far.",
     category: "grades",
@@ -132,7 +132,7 @@ export const tools: ToolDef[] = [
     name: "Final Grade Calculator",
     title: "Final Grade Calculator – What Do I Need on My Final?",
     description:
-      "Find the exact score you need on your final exam to reach your target grade. Enter your current grade, the final's weight and your goal, and see whether it is achievable.",
+      "The exact score you need on your final exam to reach your target grade, from your current grade and the final's weight, with a reality check.",
     h1: "Final Grade Calculator: What Do I Need on My Final?",
     short: "The score you need on the final to hit your target grade.",
     category: "grades",
@@ -145,7 +145,7 @@ export const tools: ToolDef[] = [
     name: "Study Time Calculator",
     title: "Study Time Calculator – Hours per Day Until Your Exam",
     description:
-      "Work out how many hours a day you need to study before your exam from the material left and days available, with rest days and Pomodoro sessions built in.",
+      "How many hours a day you need to study before your exam, from the material left and days available, with rest days and Pomodoro sessions built in.",
     h1: "Study Time Calculator",
     short: "Hours per day to finish your syllabus before exam day.",
     category: "planning",
