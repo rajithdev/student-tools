@@ -1,0 +1,31 @@
+1:"$Sreact.fragment"
+2:I[3679,["/student-tools/_next/static/chunks/0g94rg6m_999k.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+7:I[3679,["/student-tools/_next/static/chunks/0g94rg6m_999k.js"],"ViewportBoundary"]
+8:I[3679,["/student-tools/_next/static/chunks/0g94rg6m_999k.js"],"MetadataBoundary"]
+6:X
+16:X
+16:C
+0:{"buildId":"5tAYuTw1Yv2_DJMZigt5G","data":[{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"mx-auto max-w-3xl px-4 py-10 sm:px-6","children":[["$","h1",null,{"className":"text-3xl font-semibold tracking-tight text-fg sm:text-4xl","children":"Terms of Use"}],["$","p",null,{"className":"mt-2 text-sm text-fg-faint","children":"Last updated 7 October 2026"}],["$","article",null,{"className":"prose-tool mt-6","children":[["$","h2",null,{"children":"Use of the tools"}],["$","p",null,{"children":["Student Tools"," provides free calculators for educational and informational purposes. You may use them for personal, non-commercial purposes and link to them freely."]}],["$","h2",null,{"children":"No guarantee of institutional outcomes"}],["$","p",null,{"children":["The calculators apply the formulas and thresholds shown on each page. Attendance requirements, condonation rules, grading scales and CGPA-to-percentage conversions differ between institutions and change over time. ",["$","strong",null,{"children":"Always confirm with your own university’s regulations or your marks card."}]," We are not responsible for decisions made on the basis of a result, including exam eligibility, admissions or employment."]}],["$","h2",null,{"children":"Accuracy"}],["$","p",null,{"children":"We test our calculations carefully, but the service is provided “as is” without warranties of any kind. If you believe a result is wrong, please report it through the contact page."}],["$","h2",null,{"children":"Acceptable use"}],["$","p",null,{"children":"Do not attempt to disrupt the site, scrape it at a rate that affects other users, or misrepresent our results as official institutional documents."}],["$","h2",null,{"children":"Intellectual property"}],["$","p",null,{"children":["The site’s text, design and code are owned by ","Student Tools"," unless stated otherwise. Formulas themselves are not proprietary; attributions to institutions are provided for accuracy."]}],["$","h2",null,{"children":"Changes"}],["$","p",null,{"children":"We may update these terms and the tools at any time. Continued use after a change constitutes acceptance."}]]}]]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":"$@5","staleTime":"$6","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$L7",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#faf9f5","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#121210","media":"(prefers-color-scheme: dark)"}]]}],["$","div",null,{"hidden":true,"children":["$","$L8",null,{"children":["$","$3",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Terms of Use · Student Tools"}],["$","meta","1",{"name":"description","content":"Terms for using Student Tools: free educational calculators provided as-is; verify institutional rules with your own university."}],["$","meta","2",{"name":"application-name","content":"Student Tools"}],["$","link","3",{"rel":"manifest","href":"/student-tools/manifest.webmanifest"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","link","5",{"rel":"canonical","href":"https://rajithdev.github.io/student-tools/terms/"}],["$","meta","6",{"name":"format-detection","content":"telephone=no"}],["$","meta","7",{"property":"og:title","content":"Terms of Use · Student Tools"}],["$","meta","8",{"property":"og:description","content":"Terms for using Student Tools: free educational calculators provided as-is; verify institutional rules with your own university."}],["$","meta","9",{"property":"og:url","content":"https://rajithdev.github.io/student-tools/terms/"}],["$","meta","10",{"property":"og:site_name","content":"Student Tools"}],["$","meta","11",{"property":"og:image","content":"https://rajithdev.github.io/student-tools/og.png"}],["$","meta","12",{"property":"og:image:width","content":"1200"}],["$","meta","13",{"property":"og:image:height","content":"630"}],"$L9","$La","$Lb","$Lc","$Ld","$Le","$Lf","$L10","$L11"]}]}]}],"$L12"]}],"isPartial":"$@13","staleTime":"$6","varyParams":null},{"rsc":"$L14","isPartial":"$@15","staleTime":"$6","varyParams":"$16"}],"isUpgradeableISRFallback":false,"a":"$@17","rootVaryParams":null,"needsRuntimeRequest":"$@18"}
+19:I[84444,["/student-tools/_next/static/chunks/0g94rg6m_999k.js"],"IconMark"]
+1a:I[68019,["/student-tools/_next/static/chunks/0g94rg6m_999k.js"],"default"]
+1b:I[43782,["/student-tools/_next/static/chunks/0g94rg6m_999k.js"],"default"]
+4:null
+9:["$","meta","14",{"property":"og:image:alt","content":"Student Tools – Fast, accurate calculators for students"}]
+a:["$","meta","15",{"property":"og:type","content":"website"}]
+b:["$","meta","16",{"name":"twitter:card","content":"summary_large_image"}]
+c:["$","meta","17",{"name":"twitter:title","content":"Terms of Use"}]
+d:["$","meta","18",{"name":"twitter:description","content":"Terms for using Student Tools: free educational calculators provided as-is; verify institutional rules with your own university."}]
+e:["$","meta","19",{"name":"twitter:image","content":"https://rajithdev.github.io/student-tools/og.png"}]
+f:["$","link","20",{"rel":"icon","href":"/student-tools/icon.svg?icon.28sue93e0q1es.svg","sizes":"any","type":"image/svg+xml"}]
+10:["$","link","21",{"rel":"apple-touch-icon","href":"/student-tools/apple-icon.png?apple-icon.0859jpo4aleuj.png","sizes":"180x180","type":"image/png"}]
+11:["$","$L19","22",{}]
+12:["$","meta",null,{"name":"next-size-adjust","content":""}]
+14:["$","$1","c",{"children":[null,["$","$L1a",null,{"parallelRouterKey":"children","template":["$","$L1b",null,{}]}]]}]
+18:true
+6:300
+6:C
+17:0
+13:"$undefined"
+15:"$undefined"
+5:"$undefined"

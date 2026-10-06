@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://rajithdev.github.io
+Sitemap: https://rajithdev.github.io/student-tools/sitemap.xml
