@@ -10,7 +10,6 @@ const sans = Instrument_Sans({
   variable: "--font-sans",
   subsets: ["latin"],
   display: "swap",
-  axes: ["wdth"],
 });
 
 export const metadata: Metadata = {

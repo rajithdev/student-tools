@@ -9,15 +9,15 @@
   --bg-sunken: #f1efe8;
   --fg: #16150f;
   --fg-muted: #5b5a52;
-  --fg-faint: #8a897f;
+  --fg-faint: #6b6a62;
   --line: #e2dfd4;
   --line-strong: #c9c5b6;
   --mark: #ffe14d; /* highlighter */
   --mark-ink: #16150f;
   --accent: #1d4ed8;
-  --safe: #15803d;
+  --safe: #166534;
   --safe-bg: #e7f6ec;
-  --warn: #b45309;
+  --warn: #9a4a07;
   --warn-bg: #fdf1dc;
   --danger: #b91c1c;
   --danger-bg: #fbe7e7;
@@ -32,7 +32,7 @@
   --bg-sunken: #0d0d0b;
   --fg: #f1efe8;
   --fg-muted: #b0ada2;
-  --fg-faint: #7d7b72;
+  --fg-faint: #8b897f;
   --line: #2b2b26;
   --line-strong: #3f3e37;
   --mark: #f5d53b;

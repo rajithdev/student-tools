@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Student Tools
 
-## Getting Started
+Fast, accurate, mobile-first calculators for students: attendance (and how many classes you can miss), SGPA/CGPA, GPA, CGPA ↔ percentage, CGPA → GPA, marks percentage, weighted grade, final grade needed, study time and exam countdown.
 
-First, run the development server:
+Built with Next.js 16 (static export), React 19, Tailwind v4 and TypeScript. No backend, no accounts; every calculation runs in the browser and results are shareable through the URL.
+
+## Develop
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
+pnpm dev          # http://localhost:3000
+pnpm test         # unit tests for every formula (Vitest)
+pnpm e2e          # Playwright smoke tests against the static export (run `pnpm build` first)
+pnpm check        # lint + typecheck + unit tests + build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Configure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Copy `.env.example` to `.env.local`. `NEXT_PUBLIC_SITE_URL` is the canonical production origin and drives canonicals, sitemap, robots, Open Graph and JSON-LD. `NEXT_PUBLIC_BASE_PATH` is only for sub-path hosting such as GitHub project pages. Analytics and Search Console verification are optional and load nothing when empty.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Structure
 
-## Learn More
+- `src/lib/calc/` – pure, tested calculation engines (`attendance`, `grades`, `gpa`, `study`)
+- `src/lib/tools.ts` – registry of tool pages (titles, descriptions, related links, sitemap)
+- `src/components/calculators/` – client components, one per tool
+- `src/app/<tool>/page.tsx` – server-rendered page with explanatory content
+- `docs/` – search research and the search-intent → page map
+- `deploy/` – deployment notes, GitHub Pages workflow and branch-deploy script
 
-To learn more about Next.js, take a look at the following resources:
+## Deploy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+See [deploy/README.md](deploy/README.md).
